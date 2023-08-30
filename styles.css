@@ -110,3 +110,38 @@ p {
     border-radius: 5px;
     color: white; /* Tekstkleur veranderd naar wit */
 }
+
+/* Responsieve CSS */
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 15px;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .agenda {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .agenda-item {
+        margin-bottom: 20px;
+        width: 90%;
+        flex-basis: auto;
+    }
+
+    .laptekst {
+        width: 90%;  /* Aangepast voor kleinere schermen */
+    }
+}
